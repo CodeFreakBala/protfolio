@@ -1728,3 +1728,18 @@
       font-size: 1.5rem;
     }
   }
+
+  .brand-logo{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    z-index: 99999;
+    top: -100px;
+    /* margin: 0 auto; */
+  }
+
+  @media (max-width: 575px) {
+    .brand-logo{
+      left: -25px;
+    }
+  }
